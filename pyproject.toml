@@ -2,7 +2,7 @@
 name = "strass"
 version = "0.1.0"
 description = ""
-authors = ["vinceTensor <vincent.whannoudedravo@mehriso.com>"]
+authors = ["de20ce <vincent.whannou.de.dravo@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

@@ -1,6 +1,10 @@
 STRASS Dehazing: Spatio-Temporal Retinex-inspired Dehazing by an averaging of Stochastic Samples
 ---------------
 
+## Abstract:
+
+In this paper, we propose a neoteric and high-efficiency single image dehazing algorithm via contrast enhancement which is called STRASS (Spatio-Temporal Retinex-Inspired by an Averaging of Stochastic Samples) dehazing, it is realized by constructing an efficient high-pass filter to process haze images and taking the influence of human vision system into account in image dehazing principles. The novel high-pass filter works by getting each pixel using RSR and computes the average of the samples. Then the low-pass filter resulting from the minimum envelope in STRESS framework has been replaced by the average of the samples. The final dehazed image is yielded after iterations of the high-pass filter. STRASS can be run directly without any machine learning. Extensive experimental results on datasets prove that STRASS surpass the state-of-the-arts. Image dehazing can be applied in the field of printing and packaging, our method is of great significance for image pre-processing before printing.
+
 ## Introduction: Our Python Implementation Details
 
 We open source a `Python` implementation of [our work](https://www.techscience.com/jrm/v10n5/46053): `STRASS Dehazing: Spatio-Temporal Retinex-inspired Dehazing by an averaging of Stochastic Samples`. This basic `Python` version is much slower than our `C++` implementation (not released). At least, this release can give some hints to those interested in our work for non-commercial uses.
